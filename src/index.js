@@ -10,6 +10,10 @@ ReactDOM.render(
         <BrowserRouter>
             <App/>
         </BrowserRouter>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+            async
+        ></script>
     </React.StrictMode>,
     document.getElementById('root')
 );
