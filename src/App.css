@@ -31,11 +31,27 @@
     border-radius: 5px;
 }
 
-.servicesBlock{
+.servicesBlock {
     padding: 30px;
 }
 
-.servicesBlock textarea{
+.servicesBlock textarea {
     width: 500px;
     height: 200px;
+}
+
+.servicesBlock > .servicesText {
+    border-radius: 5px;
+    width: 300px;
+}
+
+.servicesBlock > label {
+    margin: 0 5px;
+}
+
+.servicesBlock > button {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 25px;
+    background-color: #2cffb0;
 }
